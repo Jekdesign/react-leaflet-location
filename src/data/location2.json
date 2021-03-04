@@ -1,0 +1,28 @@
+{
+  "features": [
+    {
+      "title": "Paris, FR",
+      "properties": {
+        "PARK_ID": 960,
+        "NAME": "Paris Park",
+        "DESCRIPTIO": "Paris location company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 2.352222, 48.856613]
+      }
+    },
+    {
+      "title": "London, UK",
+      "properties": {
+        "PARK_ID": 1219,
+        "NAME": "London Park",
+        "DESCRIPTIO": "London location company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.127758, 51.507351]
+      }
+    }
+  ]
+}
