@@ -3,6 +3,8 @@ import "./App.css";
 import { MapContainer, Marker, Popup, Tooltip, TileLayer } from "react-leaflet";
 import axios from "axios";
 import { Tabs } from "antd";
+
+const { TabPane } = Tabs;
 class App extends React.Component {
   state = {
     coordonates: [],
@@ -56,6 +58,25 @@ class App extends React.Component {
           >
             <Popup>
               <p>{this.state.locationData.name}</p>
+              <div className="card-container">
+                <Tabs type="card">
+                  <TabPane tab="Tab Title 1" key="1">
+                    <p>Content of Tab Pane 1</p>
+                    <p>Content of Tab Pane 1</p>
+                    <p>Content of Tab Pane 1</p>
+                  </TabPane>
+                  <TabPane tab="Tab Title 2" key="2">
+                    <p>Content of Tab Pane 2</p>
+                    <p>Content of Tab Pane 2</p>
+                    <p>Content of Tab Pane 2</p>
+                  </TabPane>
+                  <TabPane tab="Tab Title 3" key="3">
+                    <p>Content of Tab Pane 3</p>
+                    <p>Content of Tab Pane 3</p>
+                    <p>Content of Tab Pane 3</p>
+                  </TabPane>
+                </Tabs>
+              </div>
             </Popup>
 
             <Tooltip>
